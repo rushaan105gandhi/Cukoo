@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Cukoo - Recipe Suggestion Website</title>
+    <link rel="stylesheet" href="app.css">
+  </head>
+  <body>
+    <header>
+      <img src="logo.jpg" alt="Cukoo Logo">
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#register">Register</a></li>
+        <li><a href="#login">Login</a></li>
+        <li><a href="#search">Search Recipes</a></li>
+        <li><a href="#favorites">My Favorites</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section id="register">
+        <h2>Register</h2>
+        <form id="registration-form">
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" required>
+          <label for="email">Email:</label>
+          <input type="text" id="email" name="email" required>
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required>
+          <input type="submit" value="Submit">
+        </form>
+        <script src="app.js"></script>
+      </section>      
+      <section id="login">
+        <h2>Login</h2>
+        <form>
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" required>
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required>
+          <input type="submit" value="Submit">
+        </form>
+      </section>
+      <section id="search">
+        <h2>Search Recipes</h2>
+        <form>
+          <label for="ingredients">Ingredients:</label>
+          <input type="text" id="ingredients" name="ingredients" required>
+          <label for="cuisine">Cuisine:</label>
+          <select id="cuisine" name="cuisine">
+            <option value="American">American</option>
+            <option value="Italian">Italian</option>
+            <option value="Mexican">Mexican</option>
+            <option value="Chinese">Chinese</option>
+          </select>
+          <label for="meal-type">Meal Type:</label>
+          <select id="meal-type" name="meal-type">
+            <option value="Breakfast">Breakfast</option>
+            <option value="Lunch">Lunch</option>
+            <option value="Dinner">Dinner</option>
+            <option value="Dessert">Dessert</option>
+          </select>
+          <input type="submit" value="Submit">
+        </form>
+      </section>
+      <section id="favorites">
+        <h2>My Favorites</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Recipe Name</th>
+              <th>Cuisine</th>
+              <th>Meal Type</th>
+              <th>Rating</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Spaghetti Bolognese</td>
+              <td>Italian</td>
+              <td>Dinner</td>
+              <td>4.5/5</td>
+            </tr>
+            <tr>
+              <td>Chicken Tikka Masala</td>
+              <td>Indian</td>
+              <td>Dinner</td>
+              <td>4/5</td>
+            </tr>
+            <tr>
+              <td>Pad Thai</td>
+              <td>Thai</td>
+              <td>Lunch</td>
+              <td>4.2/5</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; Personalized Recipe Suggestion 2023 by Rushaan Gandhi</p>
+    </footer>
+    <script src="C:\Users\Hp\Documents\6 th  Sem Assignments\WDD\mini project\Cukoo\package.json"></script>
+  </body>
+</html>
