@@ -1,18 +1,4 @@
 /* Global styles */
-/* *{
-  
-    
-
-
-    background:-moz-linear-gradient(90deg, rgba(255, 253, 208, 1) 0%, rgba(255, 189, 216, 1) 100%); 
-    background:-webkit-linear-gradient(90deg, rgba(255, 253, 208, 1) 0%, rgba(255, 189, 216, 1) 100%);
-    background:-o-linear-gradient(90deg, rgba(255, 253, 208, 1) 0%, rgba(255, 189, 216, 1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFBDD8', endColorstr='#FFFDD0', GradientType=0 );
-    background:-ms-linear-gradient(90deg, rgba(255, 253, 208, 1) 0%, rgba(255, 189, 216, 1) 100%);
-    background:linear-gradient(90deg, rgba(255, 253, 208, 1) 0%, rgba(255, 189, 216, 1) 100%);
-
-
-} */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -64,7 +50,7 @@ nav {
   }
 
 
-  input[type="submit"] {
+input[type="submit"] {
     background-color: #0a3911;
     color: #fff;
     padding: 10px 20px;
@@ -73,8 +59,8 @@ nav {
     cursor: pointer;
     transition: all 0.3s ease;
   }
-  
-  input[type="submit"]:hover {
+ 
+input[type="submit"]:hover {
     background-color: #0a3911;
     transform: scale(1.1);
   }
@@ -130,11 +116,11 @@ section button {
   margin-top: 20px;
 }
 
+
 section button:hover {
   background-color: #555;
   transform: scale(1.1);
 }
-
 
 section h2 {
   background-color: #0a3911;
