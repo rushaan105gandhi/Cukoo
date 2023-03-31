@@ -1,4 +1,18 @@
 /* Global styles */
+/* *{
+  
+    
+
+
+    background:-moz-linear-gradient(90deg, rgba(255, 253, 208, 1) 0%, rgba(255, 189, 216, 1) 100%); 
+    background:-webkit-linear-gradient(90deg, rgba(255, 253, 208, 1) 0%, rgba(255, 189, 216, 1) 100%);
+    background:-o-linear-gradient(90deg, rgba(255, 253, 208, 1) 0%, rgba(255, 189, 216, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFBDD8', endColorstr='#FFFDD0', GradientType=0 );
+    background:-ms-linear-gradient(90deg, rgba(255, 253, 208, 1) 0%, rgba(255, 189, 216, 1) 100%);
+    background:linear-gradient(90deg, rgba(255, 253, 208, 1) 0%, rgba(255, 189, 216, 1) 100%);
+
+
+} */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
